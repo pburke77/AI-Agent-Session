@@ -43,7 +43,9 @@ Before building the chatbot, upload the document it will use.
 - Click **Create Knowledge** or **Create Dataset**
 - Name the dataset:
 
-### Greater Cincinnati Community Services Guide
+```
+Greater Cincinnati Community Services Guide
+```
 
 - Upload the provided resource document
 - Wait for the file to finish processing
@@ -57,7 +59,9 @@ You will connect this knowledge source to your chatbot in the next steps.
 - Choose **Chatbot**
 - Enter the app name:
 
-### Greater Cincinnati Community Services Navigator
+```
+Greater Cincinnati Community Services Navigator
+```
 
 - Enter this description:
 
