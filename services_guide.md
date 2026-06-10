@@ -8,7 +8,7 @@ This guide helps people identify community services in the Greater Cincinnati re
 
 This guide is intended for people in the Greater Cincinnati region, including parts of Southwest Ohio and Northern Kentucky. United Way 211 of Greater Cincinnati serves Adams, Brown, Butler, Clermont, Clinton, Hamilton, and Warren counties in Ohio, and Boone, Campbell, Grant, and Kenton counties in Kentucky.
 
-## 1\. United Way 211 Greater Cincinnati
+## 1. United Way 211 Greater Cincinnati
 
 **Who it is for:** Anyone who is not sure where to start or needs help finding local services.
 
@@ -22,7 +22,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** 211 connects people to services but does not directly provide all services itself.
 
-## 2\. Food Assistance
+## 2. Food Assistance
 
 **Who it is for:** People who need groceries, food pantries, community meals, or help finding food support.
 
@@ -38,7 +38,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Hours and eligibility may vary by provider and may change over time.
 
-## 3\. Housing and Shelter Support
+## 3. Housing and Shelter Support
 
 **Who it is for:** People experiencing homelessness, at risk of eviction, in need of emergency shelter, or looking for rent or housing support.
 
@@ -54,7 +54,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Some housing and shelter programs have eligibility requirements or intake processes.
 
-## 4\. Mental Health and Crisis Support
+## 4. Mental Health and Crisis Support
 
 **Who it is for:** People dealing with stress, emotional distress, mental health concerns, substance use concerns, or crisis situations.
 
@@ -70,7 +70,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** In emergencies, do not rely only on a directory or chatbot. Use emergency services or crisis lines immediately.
 
-## 5\. Utility Assistance
+## 5. Utility Assistance
 
 **Who it is for:** People struggling to pay for electric, gas, heat, water, sewer, or telecommunications bills.
 
@@ -86,7 +86,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Eligibility, documentation, and funding availability may vary.
 
-## 6\. Employment and Job Support
+## 6. Employment and Job Support
 
 **Who it is for:** People looking for jobs, training, career support, or employment resources.
 
@@ -100,7 +100,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Not every service provides direct placement.
 
-## 7\. Family, Youth, and Child Services
+## 7. Family, Youth, and Child Services
 
 **Who it is for:** Families needing child-related support, school support, baby supplies, or family-oriented services.
 
@@ -116,7 +116,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Some services are tied to county, school district, or family eligibility rules.
 
-## 8\. Transportation Support
+## 8. Transportation Support
 
 **Who it is for:** People who need help getting to appointments, services, or essential activities.
 
@@ -132,7 +132,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Transportation support may be limited by geography, eligibility, or purpose of trip.
 
-## 9\. Legal and Advocacy Services
+## 9. Legal and Advocacy Services
 
 **Who it is for:** People with housing rights issues, low-income legal questions, discrimination concerns, or advocacy needs.
 
@@ -148,7 +148,7 @@ This guide is intended for people in the Greater Cincinnati region, including pa
 
 **Limitations:** Legal services often depend on eligibility, issue type, and capacity.
 
-## 10\. Disability and Accessibility Services
+## 10. Disability and Accessibility Services
 
 **Who it is for:** People with disabilities, vision or hearing needs, developmental disabilities, or accessibility support needs.
 

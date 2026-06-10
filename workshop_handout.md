@@ -31,7 +31,7 @@ Your chatbot will:
 
 ## Step 1: Sign In to Dify
 
-- Open \*\*<https://dify.ai>\*\*
+- Open **<https://dify.ai>**
 - Create a free account or sign in
 - Open your workspace/dashboard
 
@@ -43,7 +43,7 @@ Before building the chatbot, upload the document it will use.
 - Click **Create Knowledge** or **Create Dataset**
 - Name the dataset:
 
-**Greater Cincinnati Community Services Guide**
+### Greater Cincinnati Community Services Guide
 
 - Upload the provided resource document
 - Wait for the file to finish processing
@@ -57,11 +57,13 @@ You will connect this knowledge source to your chatbot in the next steps.
 - Choose **Chatbot**
 - Enter the app name:
 
-**Greater Cincinnati Community Services Navigator**
+### Greater Cincinnati Community Services Navigator
 
 - Enter this description:
 
-**Helps users identify relevant community services in the Greater Cincinnati region based on their needs.**
+```text
+Helps users identify relevant community services in the Greater Cincinnati region based on their needs.
+```
 
 - Click **Create**
 
@@ -70,7 +72,9 @@ You will connect this knowledge source to your chatbot in the next steps.
 - In your chatbot settings, locate the **Knowledge** section
 - Attach the dataset named:
 
-**Greater Cincinnati Community Services Guide**
+```text
+Greater Cincinnati Community Services Guide
+```
 
 - Confirm that the chatbot can use this dataset when responding
 
@@ -78,24 +82,27 @@ You will connect this knowledge source to your chatbot in the next steps.
 
 Locate the main instruction or prompt area in your app and paste the text below.
 
-**System Instructions**
+### System Instructions
 
-_text_
+```text
+You are the Greater Cincinnati Community Services Navigator.
 
-You are the Greater Cincinnati Community Services Navigator.  
-<br/>Your role is to help users identify the most appropriate community service or support option in the Greater Cincinnati region based on their situation.  
-<br/>Instructions:  
-1\. Ask 2 or 3 clarifying questions before making a recommendation unless the user has already provided enough detail.  
-2\. Use the knowledge base as your primary source.  
-3\. Recommend the best matching service or the top 2 options.  
-4\. Explain why each option matches the user's need.  
-5\. Provide clear next steps, including what to do first when that information is available.  
-6\. If the knowledge base does not contain enough information, clearly say so.  
-7\. Keep the tone supportive, concise, and easy to understand.  
-8\. If the issue involves immediate danger, advise the user to call 911.  
-9\. If the issue involves suicide, severe emotional distress, or a mental health crisis, advise the user to contact 988 or an appropriate crisis resource.  
-10\. Do not invent hours, phone numbers, eligibility rules, deadlines, or service details that are not in the knowledge base.  
-11\. End by asking whether the user wants a short summary they can save.
+Your role is to help users identify the most appropriate community service or support option in the Greater Cincinnati region based on their situation.
+
+Instructions:
+
+1. Ask 2 or 3 clarifying questions before making a recommendation unless the user has already provided enough detail.
+2. Use the knowledge base as your primary source.
+3. Recommend the best matching service or the top 2 options.
+4. Explain why each option matches the user's need.
+5. Provide clear next steps, including what to do first when that information is available.
+6. If the knowledge base does not contain enough information, clearly say so.
+7. Keep the tone supportive, concise, and easy to understand.
+8. If the issue involves immediate danger, advise the user to call 911.
+9. If the issue involves suicide, severe emotional distress, or a mental health crisis, advise the user to contact 988 or an appropriate crisis resource.
+10. Do not invent hours, phone numbers, eligibility rules, deadlines, or service details that are not in the knowledge base.
+11. End by asking whether the user wants a short summary they can save.
+```
 
 ## Step 6: Turn On and Edit the Conversation Opener
 
@@ -107,11 +114,11 @@ In Dify, the welcome message is managed through the **Features Enabled** area.
 - Click into the Conversation Opener text area to edit it
 - Paste this message:
 
-**Conversation Opener**
+### Conversation Opener
 
-_text_
-
+```text
 Hi - I can help you find community services in the Greater Cincinnati region. Tell me what kind of help you're looking for, and I'll ask a couple of quick questions before recommending a next step.
+```
 
 **Optional:** Leave **Citations and Attributions** turned on so users can see the source of retrieved answers.
 
@@ -119,41 +126,41 @@ Hi - I can help you find community services in the Greater Cincinnati region. Te
 
 Try one or more of the prompts below.
 
-**Test Prompt 1**
+### Test Prompt 1
 
-_text_
-
+```text
 I need help paying my utility bills.
+```
 
-**Test Prompt 2**
+### Test Prompt 2
 
-_text_
-
+```text
 I'm not sure where to start, but I need food assistance.
+```
 
-**Test Prompt 3**
+### Test Prompt 3
 
-_text_
-
+```text
 I'm worried I may lose my housing soon.
+```
 
-**Test Prompt 4**
+### Test Prompt 4
 
-_text_
-
+```text
 I need help finding mental health support.
+```
 
-**Test Prompt 5**
+### Test Prompt 5
 
-_text_
-
+```text
 I need job help and I don't know what programs are available.
+```
 
-**Test Prompt 6**
+### Test Prompt 6
 
-_text_
-
+``` text
 I'm overwhelmed and I'm not sure what kind of help I need.
+```
 
 ## Step 8: Check the Results
 
@@ -170,67 +177,67 @@ As you test the chatbot, ask yourself:
 
 Choose **one** improvement from the list below and add it to your system instructions.
 
-**Option A: Use a Structured Response Format**
+### Option A: Use a Structured Response Format
 
 Add:
 
-_text_
+```text
+When giving a recommendation, format the answer with these headings:
+- Best option
+- Why it fits
+- Next steps
+- Another possible option
+```
 
-When giving a recommendation, format the answer with these headings:  
-\- Best option  
-\- Why it fits  
-\- Next steps  
-\- Another possible option
-
-**Option B: Ask Fewer Questions**
+#### Option B: Ask Fewer Questions
 
 Change:
 
-_text_
-
+```text
 Ask 2 or 3 clarifying questions before making a recommendation
+```
 
 to:
 
-_text_
-
+```text
 Ask no more than 2 clarifying questions before making a recommendation
+```
 
-**Option C: Add a Summary Mode**
+#### Option C: Add a Summary Mode
 
 Add:
 
-_text_
-
+```text
 If the user asks for a summary, provide a short 3-bullet version they can save or copy.
+```
 
-**Option D: Be More Careful with Uncertainty**
+#### Option D: Be More Careful with Uncertainty
 
 Add:
 
-_text_
-
+```text
 If you are unsure between two services, say so and explain the difference.
+```
 
 ## Step 10: Test Again
 
 After making an improvement, test your app again with one of the prompts below.
 
-_text_
-
+```text
 I need food support and transportation help.
+```
 
-_text_
-
+```text
 I may be evicted and I don't know what to do first.
+```
 
-_text_
-
+```text
 I need legal help with a housing issue.
+```
 
-_text_
-
+```text
 I need help, but I'm not sure if I should call 211 or another service.
+```
 
 ## Optional Challenge
 
