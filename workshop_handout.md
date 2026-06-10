@@ -44,7 +44,7 @@ Before building the chatbot, upload the document it will use.
 - Name the dataset:
 
 ```
-Greater Cincinnati Community Services Guide
+Community Services Guide
 ```
 
 - Upload the provided resource document
